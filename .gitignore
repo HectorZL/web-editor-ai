@@ -1,0 +1,39 @@
+# Monorepo VideoFlow AI - Root Ignore
+
+# dependencies
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+*.log
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Project specific
+storage/**/*
+!storage/.gitkeep
+tmp/**/*
+!tmp/.gitkeep
+
+# Exclude internal git folders once merged
+backend/.git
+frontend/.git
